@@ -1,7 +1,3 @@
-31 August
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,9 +11,24 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
-</head>
+
+  </head>
 <body>
-<h1>Insects by Lakshmi Mupparaju</h1>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <br>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <li class="nav-link"><a class="nav-link active" href="basic.html">Text Basic</a> </li>
+        <li class="nav-link"><a class="nav-link active" href="advanced.html">Text Advanced</a> </li>
+        </ul>
+    </div>
+    </nav>
+    <br>
+  <h1>Insects by Lakshmi Mupparaju</h1>
 <div class="container">
     <div class="row">
      <div class="col-sm-2"> M </div>
@@ -40,22 +51,14 @@
 <div class="container">
 
   <img src="ants.jpg" class="img-fluid" alt="ants">
-
-
-  <img src="mf.jpg" class="img-fluid" alt="mayflies" >
-
-
   <img src="moth.jpg" class="img-fluid" alt="underwing moth" >
+  <img src="mf.jpg" class="img-fluid" alt="mayfly" >
+  
 </div>
 <div class="container">
-
-  <img src="ants.jpg" class="img-thumbnail" alt="ants" >
-
-
-  <img src="mf.jpg" class="img-thumbnail" alt="mayflies" >
-
-
-  <img src="moth.jpg" class="img-thumbnail" alt="underwing moth">
+ <img src="ants.jpg" class="img-thumbnail" alt="ants" >
+ <img src="moth.jpg" class="img-thumbnail" alt="underwing moth">
+  <img src="mf.jpg" class="img-thumbnail" alt="mayfly" > 
 </div>
 <table class="table  caption-top table-bordered table-striped-columns table-hover table-sm">
   <caption> Insects Table</caption>
@@ -141,8 +144,54 @@
       <a class="dropdown-item" href="basic.html">Basic HTML</a>
      <a class="dropdown-item" href="advanced.html">Advanced HTML</a>
     </div>
-
 </div>
+<br>
 
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="form-group">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="form-group">Insect</label><br>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your insect">
+  </div>
+  <div class="form-check">
+    <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+  </div>
+  <br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<div class="card-group">
+  <div class="card" style="width: 16rem;">
+    <img src="ants.jpg" class="card-img" alt="ants">
+    <div class="card-body">
+      <h5 class="card-title">Ants</h5>
+      <p class="card-text">Ants are eusocial insects of the family Formicidae and, along with the related wasps and bees, belong to the order Hymenoptera.Ants are distinct in their morphology from other insects in having geniculate (elbowed) antennae, metapleural glands, and a strong constriction of their second abdominal segment into a node-like petiole.Ants have colonised almost every landmass on Earth. Ant societies have division of labour, communication between individuals,ability to solve complex problems. </p>
+      <a href="https://en.wikipedia.org/wiki/Ant" class="btn btn-primary">More on Ants</a>
+    </div>
+  </div>
+  <div class="card" style="width: 16rem;">
+    <img src="moth.jpg" class="card-img" alt="underwing Moth">
+    <div class="card-body">
+      <h5 class="card-title">Underwing Moth</h5>
+      <p class="card-text">The forewings of underwing moths (genus Catocala) are typically dull tan, brown, or gray with wavy lines that mimic the random patterns of tree bark.There are more than 60 species of Catocala moths in Missouri, and within these there are an additional 40 named forms and varieties. Thus the markings can vary greatly even within a species, and even experts can have a difficult time telling them all apart. You’re doing well when you can identify an underwing as an underwing!</p>
+      <br>
+      <a href="https://mdc.mo.gov/discover-nature/field-guide/underwing-moths" class="btn btn-primary"> More on UnderwingMoth</a>
+    </div>
+  </div>
+  <div class="card" style="width: 16rem;">
+    <img src="mf.jpg" class="card-img" alt="May Fly">
+    <div class="card-body">
+      <h5 class="card-title">May Flies</h5>
+      <p class="card-text"> May flies are aquatic insects belonging to the order Ephemeroptera.Mayflies exhibit a number of ancestral traits that were probably present in the first flying insects, such as long tails and wings that do not fold flat over the abdomen. Their immature stages are aquatic fresh water forms (called "naiads" or "nymphs"), whose presence indicates a clean, unpolluted and highly oxygenated aquatic environment. They are unique with fully winged terrestrial preadult stage.</p>
+      <a href="https://en.wikipedia.org/wiki/Mayfly" class="btn btn-primary"> More on MayFly</a>
+    </div>
+  </div>
+  
+</div>
 </body>
 </html>
